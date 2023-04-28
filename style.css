@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+  margin: 0;
+  background-color: white;
+}
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+header {
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  height: 48px;
+  margin-left: 6px;
+  margin-top: -7px;
+  gap: 38%;
+}
+
+.headline {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 374px;
+  background-color: #fff;
+  background-image: url("Media/pg.png");
+  background-repeat: no-repeat;
+  border-bottom-left-radius: 60px;
+  height: 602px;
+  align-items: flex-start;
+  position: absolute;
+  gap: 12px;
+  top: 90px;
+}
+
+.main_title {
+  display: flex;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 60px;
+  letter-spacing: 0.3700000047683716px;
+  align-items: center;
+  width: 327px;
+  height: 9.37rem;
+  margin: 20px;
+  color: #091e42;
+  font-style: bold;
+  order: 0;
+}
+
+.detail {
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 28px;
+  text-align: left;
+  color: rgba(52, 69, 99, 1);
+  margin: 0 20px;
+  width: 327px;
+  height: 146px;
+  order: 1;
+}
+
+.logo {
+  display: flex;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 20px;
+  text-align: center;
+  color: #6070ff;
+  width: 100%;
+  height: 20px;
+  text-decoration: none;
+  align-items: center;
+}
+
+.menu_item2 {
+  height: 12px;
+  width: 18px;
+  left: 3px;
+  top: 6px;
+  color: rgba(96, 112, 255, 1);
+  margin-right: 10px;
+}
+
+.connection {
+  display: flex;
+  box-sizing: border-box;
+  flex-wrap: wrap;
+  font-style: normal;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 20px;
+  margin-left: 20px;
+  order: 2;
+  line-height: 24px;
+  color: #7f8cff;
+  flex-grow: 0;
+  overflow-x: hidden;
+}
+
+.social_links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex: none;
+  flex-grow: 0;
+  list-style: none;
+  width: 10.636rem;
+  margin-left: -25px;
+  margin-top: 1px;
+  gap: 8px;
+  order: 3;
+  right: 180px;
+}
+
+.twitter:hover,
+.linkindin:hover,
+.github:hover,
+.medium:hover,
+.angellist:hover {
+  color: #505f79;
+  opacity: 0.5;
+}
+
+/* .menu_icon {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+} */
+
+.header {
+  background-color: white;
+  width: 375px;
+  height: 48px;
+  top: 44px;
+  left: 0;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  align-items: center;
+}
