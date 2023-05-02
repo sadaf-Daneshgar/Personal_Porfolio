@@ -12,17 +12,23 @@ body {
   background-color: #344563;
 }
 
-.header {
-  height: 50px;
-  display: flex;
-  background-image: url("Media/header-background-mobile.png.jpg");
-  background-size: cover;
+.header-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+  color: #6070ff;
+  cursor: pointer;
+  padding-left: 35px;
+  float: left;
+  text-decoration: none;
+  margin-top: 14px;
 }
 
-.header .left {
-  width: 50%;
-  height: 100%;
-  padding-left: 10px;
+header {
+  display: flex;
+  background-color: white;
+  height: 6vh;
+  justify-content: space-between;
 }
 
 .social-icon a {
@@ -34,48 +40,22 @@ body {
   color: #333;
 }
 
-.header .left a {
-  text-decoration: none;
-}
-
-.header .left .logo {
-  font-size: 18px;
-  font-weight: 700;
-  padding: 8px;
-  color: #6070ff;
-}
-
-.header .right {
-  width: 50%;
-  height: 100%;
-  flex-direction: row;
-  align-content: end;
-  padding-right: 10px;
-}
-
-.header .right .menubar {
+.hamburger {
   display: flex;
   flex-direction: column;
-  align-items: end;
-  padding: 12px;
+  gap: 2px;
+  padding-right: 36px;
+  float: right;
+  cursor: pointer;
+  margin-top: 14px;
 }
 
-.header .right .menubar .menubar1 {
-  border: 2px solid #6070ff;
-  width: 20px;
-  margin: 1px;
-}
-
-.header .right .menubar .menubar2 {
-  border: 2px solid #6070ff;
-  width: 20px;
-  margin: 1px;
-}
-
-.header .right .menubar .menubar3 {
-  border: 2px solid #6070ff;
-  width: 20px;
-  margin: 1px;
+.stroke {
+  width: 16px;
+  height: 2px;
+  background-color: #6070ff;
+  border-radius: 8px;
+  list-style-type: none;
 }
 
 .container {
@@ -83,19 +63,20 @@ body {
   height: 591px;
   background-image: url("Media/header-shapes\ mobile.png.jpg");
   background-size: cover;
-  padding: 27px;
+  padding: 24px;
 }
 
 .container .name {
   width: 327px;
   height: 150px;
   font-weight: 700;
-  font-size: 32px;
+  font-size: 40px;
   padding: 90px 12px 170px;
   line-height: 52px;
   color: #172b4d;
   flex: none;
   order: 0;
+  font-style: normal;
   flex-grow: 0;
 }
 
@@ -120,34 +101,35 @@ body {
 }
 
 .container .lets_contact {
-  width: 147px;
+  width: 117px;
   height: 24px;
-  margin-top: 20px;
-  padding-left: 12px;
+  margin-top: 12px;
+  display: flex;
+  flex-direction: row;
+  margin-left: 24px;
+  gap: 8px;
 }
 
 .container .lets_contact .contact {
   font-style: normal;
   font-weight: 500;
-  font-size: 11px;
+  font-size: 16px;
   line-height: 24px;
   color: #7f8cff;
   flex: none;
   order: 0;
   flex-grow: 0;
-}
-
-.social {
-  padding-top: 5%;
-  margin: 0 auto;
-  display: flex;
-  padding-bottom: 6%;
+  margin-left: -14px;
 }
 
 .social-icons-set {
   display: flex;
-  justify-content: center;
   align-items: center;
+  padding-top: 40px;
+  width: 170.17px;
+  height: 20px;
+  order: 3;
+  margin-left: -138px;
 }
 
 .social-icon {
