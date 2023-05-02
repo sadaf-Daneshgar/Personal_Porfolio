@@ -5,13 +5,6 @@
   font-family: "Poppins", sans-serif;
 }
 
-body {
-  width: 375px;
-  height: 718px;
-  margin: auto;
-  background-color: #344563;
-}
-
 .header-title {
   font-weight: 700;
   font-size: 18px;
@@ -70,7 +63,7 @@ header {
   width: 327px;
   height: 150px;
   font-weight: 700;
-  font-size: 40px;
+  font-size: 26px;
   padding: 90px 12px 170px;
   line-height: 52px;
   color: #172b4d;
@@ -81,7 +74,7 @@ header {
 }
 
 .container span {
-  font-size: 40px;
+  font-size: 26px;
 }
 
 .container .bio {
