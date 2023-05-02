@@ -5,23 +5,24 @@
   font-family: "Poppins", sans-serif;
 }
 
-.header-title {
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 20px;
-  color: #6070ff;
-  cursor: pointer;
-  padding-left: 35px;
-  float: left;
-  text-decoration: none;
-  margin-top: 14px;
+body {
+  background-color: rgb(229, 229, 229);
 }
 
-header {
+.header {
+  height: 50px;
+  padding: 0 24px;
   display: flex;
-  background-color: white;
-  height: 6vh;
   justify-content: space-between;
+  background-image: url("Media/header-background-mobile.png.jpg");
+  background-size: cover;
+}
+
+.header .left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
 }
 
 .social-icon a {
@@ -33,74 +34,70 @@ header {
   color: #333;
 }
 
-.hamburger {
-  display: flex;
-  flex-direction: column;
-  gap: 2px;
-  padding-right: 36px;
-  float: right;
-  cursor: pointer;
-  margin-top: 14px;
+.header .left a {
+  text-decoration: none;
 }
 
-.stroke {
-  width: 16px;
-  height: 2px;
-  background-color: #6070ff;
-  border-radius: 8px;
-  list-style-type: none;
+.header .left .logo {
+  font-size: 18px;
+  font-weight: 700;
+  color: #6070ff;
+}
+
+.header .right {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header .right .menubar {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+
+.header .right .menubar .bar {
+  border: 2px solid #6070ff;
+  width: 20px;
+  margin: 1px;
 }
 
 .container {
-  width: 375px;
-  height: 591px;
+  height: 90vh;
+  padding: 24px;
   background-image: url("Media/header-shapes\ mobile.png.jpg");
   background-size: cover;
-  padding: 24px;
+  border-bottom-left-radius: 80px;
 }
 
-.container .name {
-  width: 327px;
-  height: 150px;
+.container .content {
+  height: auto;
+  padding: 122px 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.container h1 {
   font-weight: 700;
-  font-size: 26px;
-  padding: 90px 12px 170px;
+  font-size: 40px;
   line-height: 52px;
   color: #172b4d;
-  flex: none;
-  order: 0;
-  font-style: normal;
-  flex-grow: 0;
-}
-
-.container span {
-  font-size: 26px;
 }
 
 .container .bio {
-  width: 327px;
-  height: 146px;
-  left: 0;
-  top: 0;
-  padding: 3px 12px 24px;
+  height: auto;
+  margin: 8px 0;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
   color: #344563;
-  flex: none;
-  order: 1;
-  flex-grow: 0;
 }
 
 .container .lets_contact {
-  width: 117px;
-  height: 24px;
-  margin-top: 12px;
-  display: flex;
-  flex-direction: row;
-  margin-left: 24px;
-  gap: 8px;
+  height: auto;
+  padding: 12px 0;
 }
 
 .container .lets_contact .contact {
@@ -110,24 +107,23 @@ header {
   line-height: 24px;
   color: #7f8cff;
   flex: none;
-  order: 0;
-  flex-grow: 0;
-  margin-left: -14px;
+}
+
+.social {
+  margin: 0 auto;
+  display: flex;
 }
 
 .social-icons-set {
   display: flex;
+  gap: 20px;
+  justify-content: center;
   align-items: center;
-  padding-top: 40px;
-  width: 170.17px;
-  height: 20px;
-  order: 3;
-  margin-left: -138px;
 }
 
 .social-icon {
   list-style: none;
-  margin: 0 10px;
+  font-weight: 700;
 }
 
 .social-icon a:hover {
@@ -136,8 +132,4 @@ header {
 
 .social-icon a i {
   font-size: 20px;
-}
-
-.social-icon + .social-icon {
-  margin-left: 10px;
 }
