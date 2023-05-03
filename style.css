@@ -5,13 +5,7 @@
   box-sizing: border-box;
 }
 
-html {
-  background-color: lightgray;
-}
-
 body {
-  width: 375px;
-  margin: 0 auto;
   background-color: rgb(236, 234, 234);
 }
 
@@ -26,11 +20,15 @@ body {
   background-image: url(Media/header-background-mobile.png.jpg);
   background-size: cover;
   background-color: white;
+  padding: 1 24px;
+  justify-content: space-between;
 }
 
 .header .Left_side {
-  width: 50%;
+  /* width: 50%; */
   height: 100%;
+  align-items: center;
+  justify-content: center;
 }
 
 .social-icon a {
@@ -74,8 +72,7 @@ body {
 /* start container part */
 
 .container {
-  width: 375px;
-  height: 611px;
+  height: 90vh;
   background-image: url(Media/header-shapes\ mobile.png.jpg);
   background-size: cover;
   border-bottom-left-radius: 60px;
@@ -135,7 +132,7 @@ body {
 
 .social_media {
   padding-top: 0%;
-  margin: 0 auto;
+  margin: initial;
   display: flex;
 }
 
@@ -170,14 +167,27 @@ body {
   display: grid;
 }
 
-.middle_section {
+/* .middle_section {
   height: 552px;
   width: 343px;
   margin: 100px 16px 0 16px;
   border-radius: 15px;
   background-color: white;
   padding-bottom: 20px;
+} */
+
+.middle_section {
+  display: flex;
+  flex-direction: column;
+  margin: 100px 16px 20px 16px;
+  border-radius: 15px;
+  background-color: white;
+  padding-bottom: 20px;
 }
+
+/* .land li {
+  margin-right: 50px;
+} */
 
 .middle_section div.pic {
   width: 295px;
@@ -192,7 +202,7 @@ body {
   margin: 5px 20px;
 }
 
-.middle_section div.name h1 {
+.middle_section div.name h2 {
   font-weight: 700;
   font-size: 32px;
   columns: #172b4d;
@@ -330,6 +340,59 @@ section.about div.link a:hover {
   margin: 0 10px;
 }
 
+.html {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 4px 12px;
+  width: 32%;
+  height: 24px;
+  background: #ebebff;
+  color: #6070ff;
+  border-radius: 8px;
+  font-style: normal;
+  font-size: 12px;
+  font-weight: 500;
+  margin-left: 12px;
+  margin-right: 8px;
+  letter-spacing: 0.48px;
+}
+
+.css {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 4px 12px;
+  width: 30%;
+  height: 24px;
+  background: #ebebff;
+  color: #6070ff;
+  border-radius: 8px;
+  font-style: normal;
+  font-size: 12px;
+  font-weight: 500;
+  margin-right: 8px;
+  letter-spacing: 0.48px;
+}
+
+.JavaScript {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 4px 12px;
+  width: 50%;
+  height: 24px;
+  background: #ebebff;
+  color: #6070ff;
+  border-radius: 8px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-size: 12px;
+  font-weight: 500;
+  margin-right: 8px;
+  letter-spacing: 0.48px;
+}
+
 .middle_section div.link {
   width: 126px;
   height: 48px;
@@ -344,23 +407,35 @@ section.about div.link a:hover {
   text-align: center;
 }
 
+.link:hover {
+  background-color: #6070ff;
+  color: #fff;
+}
+
+.link:active {
+  background-color: #2230d2;
+  color: #fff;
+}
+
 /* End middle part  */
 
 /* Start About Yourself Section  */
 
 section.about {
-  height: 1063px;
-  width: 100%;
-  padding: 20px;
+  height: 1263px;
+  width: 375px;
+  padding: 114px 24px 0 24px;
   background-color: white;
   margin-top: 100px;
   border-top-right-radius: 60px;
+  display: flex;
+  flex-direction: column;
 }
 
 section.about div.am h2 {
   font-weight: 700;
   font-size: 40px;
-  color: #172b4d;
+  color: rgb(23, 43, 77);
   margin-top: 60px;
 }
 
@@ -400,7 +475,7 @@ section.about div.link {
 
 section.about div.select {
   width: 90%;
-  margin: auto;
+  margin: 1px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -446,11 +521,11 @@ section.about div.select ul.lang li.lang i {
 }
 
 section.about div.select ul.lang div.contain {
-  height: 180px;
-  width: 303px;
+  height: 248.15px;
+  width: 327px;
   margin-top: 20px;
   margin-bottom: 5px;
-  margin-left: -12px;
+  gap: 12px;
 }
 
 section.about div.select ul.lang div.contain ul li.con {
