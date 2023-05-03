@@ -206,7 +206,12 @@ body {
 }
 
 .middle_section div.descript div.camp {
-  width: 30%;
+  width: 55px;
+  height: 16px;
+  line-height: 16px;
+  font-size: 13px;
+  font-weight: 600;
+  padding-top: 8px;
   color: #344563;
 }
 
@@ -214,6 +219,7 @@ body {
   width: 70%;
   color: #7a869a;
   font-size: 13px;
+  padding-top: 6px;
 }
 
 .middle_section div.descript div.year ul.list {
@@ -241,7 +247,7 @@ body {
 .middle_section div.web {
   width: 295px;
   height: 24px;
-  margin: 0 20px;
+  padding: 12px;
 }
 
 .middle_section div.web div.right {
@@ -261,7 +267,7 @@ body {
   color: #6070ff;
   font-size: 17px;
   font-weight: 500;
-  padding: 5px 0 0 4px;
+  padding: 12px;
   height: 100%;
   width: 100%;
   border-radius: 8px;
@@ -325,8 +331,8 @@ section.about div.link a:hover {
 }
 
 .middle_section div.link {
-  width: 110px;
-  height: 40px;
+  width: 126px;
+  height: 48px;
   margin: 0 20px;
 
   /* comment */
@@ -388,7 +394,6 @@ section.about div.link {
   align-items: center;
   justify-content: center;
   border-radius: 8px;
-  margin: 5px 0 0 15px;
   margin-bottom: 30px;
   text-align: center;
 }
@@ -442,9 +447,10 @@ section.about div.select ul.lang li.lang i {
 
 section.about div.select ul.lang div.contain {
   height: 180px;
-  width: 96%;
+  width: 303px;
   margin-top: 20px;
   margin-bottom: 5px;
+  margin-left: -12px;
 }
 
 section.about div.select ul.lang div.contain ul li.con {
