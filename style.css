@@ -13,6 +13,22 @@ body {
   display: flex;
 }
 
+.link {
+  width: 126px;
+  border: 1px solid #6070ff;
+  background-color: #fff;
+  font-size: 17px;
+  font-weight: 500;
+  color: rgba(57, 109, 242, 1);
+  text-align: center;
+  height: 48px;
+  box-sizing: border-box;
+  border-radius: 8px;
+  gap: 10px;
+  padding: 12px;
+  margin: 32px 16px 16px 16px;
+}
+
 /* start header part */
 
 .header {
@@ -455,6 +471,8 @@ section.about div.link {
   justify-content: center;
   border-radius: 8px;
   padding: 12px;
+  margin-left: 0.1rem;
+  margin-top: 10px;
   margin-bottom: 30px;
   text-align: center;
 }
