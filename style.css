@@ -27,6 +27,8 @@ body {
   gap: 10px;
   padding: 12px;
   margin: 32px 16px 16px 16px;
+  justify-content: center;
+  align-items: center;
 }
 
 /* start header part */
@@ -101,7 +103,7 @@ body {
   font-size: 40px;
   padding: 90px 12px 170px;
   line-height: 52px;
-  color: #172b4d;
+  color: rgba(23, 43, 77, 1);
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -191,10 +193,9 @@ body {
 }
 
 .middle_section div.pic {
-  width: 295px;
-  height: 220px;
   margin: 20px 23px;
   gap: 20px;
+  width: 100%;
 }
 
 .middle_section div.name {
@@ -206,7 +207,7 @@ body {
 .middle_section div.name h2 {
   font-weight: 700;
   font-size: 32px;
-  columns: #172b4d;
+  color: rgba(23, 43, 77, 1);
   line-height: 44px;
 }
 
@@ -242,8 +243,6 @@ body {
 }
 
 .middle_section div.task {
-  width: 295px;
-  height: 76px;
   margin: 5px 20px;
 }
 
