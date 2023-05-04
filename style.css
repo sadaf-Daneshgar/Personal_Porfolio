@@ -103,7 +103,7 @@ body {
   font-size: 40px;
   padding: 90px 12px 170px;
   line-height: 52px;
-  color: rgba(23, 43, 77, 1);
+  color: rgb(23, 43, 77);
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -193,8 +193,14 @@ body {
 }
 
 .middle_section div.pic {
-  padding: 16px;
+  margin: 20px auto;
+  padding: 16px 16px 0 16px;
   gap: 20px;
+  width: 100%;
+}
+
+div.pic img {
+  width: 100%;
 }
 
 .middle_section div.name {
@@ -206,7 +212,7 @@ body {
 .middle_section div.name h2 {
   font-weight: 700;
   font-size: 32px;
-  color: rgba(23, 43, 77, 1);
+  columns: rgb(23, 43, 77);
   line-height: 44px;
 }
 
