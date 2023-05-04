@@ -193,7 +193,7 @@ body {
 }
 
 .middle_section div.pic {
-  margin: 20px 23px;
+  padding: 16px;
   gap: 20px;
   width: 100%;
 }
