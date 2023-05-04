@@ -25,7 +25,6 @@ body {
 }
 
 .header .Left_side {
-  /* width: 50%; */
   height: 100%;
   align-items: center;
   justify-content: center;
@@ -131,8 +130,7 @@ body {
 }
 
 .social_media {
-  padding-top: 0%;
-  margin: initial;
+  padding: 0;
   display: flex;
 }
 
@@ -175,10 +173,6 @@ body {
   background-color: white;
   padding-bottom: 20px;
 }
-
-/* .land li {
-  margin-right: 50px;
-} */
 
 .middle_section div.pic {
   width: 295px;
@@ -280,9 +274,9 @@ section.about div.link a {
   color: #6070ff;
   font-size: 17px;
   font-weight: 500;
-  padding: 5px 0 0 4px;
-  height: 100%;
-  width: 100%;
+  text-align: center;
+  height: 24px;
+  width: 138px;
   border-radius: 8px;
 }
 
@@ -414,7 +408,7 @@ section.about div.link a:hover {
 
 section.about {
   height: 1263px;
-  width: 375px;
+  width: 100%;
   padding: 114px 24px 0 24px;
   background-color: white;
   margin-top: 100px;
@@ -452,21 +446,21 @@ section.about div.lets_contact {
 }
 
 section.about div.link {
-  width: 160px;
-  height: 45px;
+  width: 162px;
+  height: 48px;
 
   /* comment */
   border: 1px solid #7f8cff;
   align-items: center;
   justify-content: center;
   border-radius: 8px;
+  padding: 12px;
   margin-bottom: 30px;
   text-align: center;
 }
 
 section.about div.select {
   width: 90%;
-  margin: 1px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -491,7 +485,6 @@ div.skill {
 }
 
 section.about div.select ul.lang li.lang div.framework {
-  margin-top: 20px;
   font-size: 20px;
   font-weight: 500;
 }
@@ -512,16 +505,17 @@ section.about div.select ul.lang li.lang i {
 }
 
 section.about div.select ul.lang div.contain {
-  height: 248.15px;
+  height: auto;
   width: 327px;
   margin-top: 20px;
+  padding-bottom: 12px;
   margin-bottom: 5px;
   gap: 12px;
 }
 
 section.about div.select ul.lang div.contain ul li.con {
   background-color: #f7f7f9;
-  margin: 0 5px 5px 10px;
+  margin: 12px 12px 12px 1px;
   display: flex;
   align-items: center;
 }
