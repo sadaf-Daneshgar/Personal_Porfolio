@@ -427,7 +427,7 @@ section.about div.link a:hover {
 /* Start About Yourself Section  */
 
 section.about {
-  height: 1062.15px;
+  height: 1263px;
   width: 100%;
   padding: 114px 24px 0 24px;
   background-color: white;
@@ -554,7 +554,7 @@ section.about div.select ul.lang div.contain ul li.con img {
 .contact-form {
   width: 100%;
   height: 779px;
-  margin-top: -70px;
+  margin-top: -176px;
   background: #6070ff;
   border-radius: 80px 0 0 0;
   overflow: hidden;
@@ -581,12 +581,12 @@ section.about div.select ul.lang div.contain ul li.con img {
   text-align: center;
 }
 
-.form-header__title {
+.form-header-title {
   color: #fff;
   font-size: 34px;
 }
 
-.form-header__text {
+.form-header-text {
   color: #fff;
   width: 327px;
   height: 137px;
