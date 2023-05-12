@@ -209,6 +209,12 @@ form ul li:nth-child(1) {
   cursor: pointer;
 }
 
+.last-btn:active {
+  background: rgba(34, 48, 210, 1);
+  color: #fff;
+  cursor: pointer;
+}
+
 .section-3 {
   background-color: #f7f7f9;
 }
