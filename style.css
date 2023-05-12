@@ -594,15 +594,15 @@ textarea::placeholder {
   /* tranasition and animation */
 
   .socials li a img:hover {
-    transform: scale(1.2);
+    transform: scale(1.6);
   }
 
   .nav_link:hover {
-    transform: scale(1.2);
+    transform: scale(1.4);
   }
 
   .logo:hover {
-    transform: scale(1.2);
-    animation-duration: 2s;
+    transform: scale(1.3);
+    animation-duration: 2.4s;
   }
 }
