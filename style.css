@@ -389,15 +389,13 @@ textarea::placeholder {
 }
 
 .submit-btn:hover {
-  background: rgba(96, 112, 255, 1);
-  color: #fff;
-  cursor: pointer;
+  background-color: rgba(96, 112, 255, 1);
+  color: white;
 }
 
 .submit-btn:active {
-  background: rgba(34, 48, 210, 1);
-  color: #fff;
-  cursor: pointer;
+  background-color: rgba(34, 48, 210, 1);
+  color: white;
 }
 
 @media only screen and (min-width: 768px) {
