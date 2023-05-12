@@ -385,7 +385,7 @@ textarea::placeholder {
 
 @media only screen and (min-width: 768px) {
   .section-1-container {
-    background-image: url("C:\Users\dell\Downloads\Header bg.svg");
+    background-image: url("Media/card1.svg");
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -525,7 +525,7 @@ textarea::placeholder {
 
   .section-4 {
     background-color: #6070ff;
-    background-image: url("Media/contact\ form\ shapes-mobile@2x.png");
+    background-image: url("Media/contact-form__desktop-bg.svg");
     background-size: 90%;
     background-position: center;
     background-repeat: no-repeat;
