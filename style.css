@@ -136,7 +136,7 @@ body {
 
 form ul li {
   list-style: none;
-  margin-bottom: 25px;
+  margin-bottom: 22px;
 }
 
 .items ul li {
@@ -204,7 +204,7 @@ form ul li:nth-child(1) {
 }
 
 .last-btn:hover {
-  background: #4053fc;
+  background: rgba(96, 112, 255, 1);
   color: #fff;
   cursor: pointer;
 }
@@ -319,21 +319,20 @@ form ul li:nth-child(1) {
   font-size: 40px;
   line-height: 52px;
   color: #fff;
-  margin-top: 80px;
+  margin-top: 103px;
   margin-bottom: 10px;
 }
 
 .section-4-container p {
-  font-family: "Poppins", sans-serif;
-  font-style: normal;
+  width: 327px;
+  height: 137px;
   font-weight: 400;
-  font-size: 20px;
+  font-size: 21.5px;
   line-height: 28px;
   text-align: center;
-  color: #fff;
-  margin-bottom: 20px;
-  margin-top: 10px;
-  padding: 0 20px;
+  margin-top: 5px;
+  margin-bottom: 52px;
+  color: rgba(235, 235, 255, 1);
 }
 
 form {
@@ -387,6 +386,18 @@ textarea::placeholder {
   text-decoration: none;
   border-radius: 10px;
   margin-right: -20px;
+}
+
+.submit-btn:hover {
+  background: rgba(96, 112, 255, 1);
+  color: #fff;
+  cursor: pointer;
+}
+
+.submit-btn:active {
+  background: rgba(34, 48, 210, 1);
+  color: #fff;
+  cursor: pointer;
 }
 
 @media only screen and (min-width: 768px) {
@@ -490,6 +501,10 @@ textarea::placeholder {
 
   .items {
     margin-bottom: 50px;
+  }
+
+  .items h1 {
+    margin-top: 48px;
   }
 
   .items ul {
