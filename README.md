@@ -73,7 +73,7 @@ Run this command:
 
 ```sh
   cd my-folder
-  git clone 
+  git clone https://github.com/sadaf-Daneshgar/Personal_Porfolio.git
 
 ### Install
 
