@@ -24,12 +24,16 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Microverse_first_project <a name="about-project"></a>
-   This is my new project I created it using HTML and CSS
+# 📖[Personal_Portfolio] <a name="about-project"></a>
+   **[Portfolio]** is a project to give a summary of my portfolio.
 
-## 🛠 Built With <a name="built-with"></a>
-1- HTML.
-2- CSS.
+## 🛠  Built With <a name="built-with"></a>
+
+- ✅ HTML
+- ✅ CSS
+- ✅ Git
+- ✅ Github.
+- ✅ Linters
 
 ### Tech Stack <a name="tech-stack"></a>
 
@@ -69,7 +73,7 @@ Run this command:
 
 ```sh
   cd my-folder
-  git clone https://github.com/sadaf-Daneshgar/Microverse_first_project.git
+  git clone git@github.com:sadaf-Daneshgar/Personal_Porfolio.git
 
 ### Install
 
