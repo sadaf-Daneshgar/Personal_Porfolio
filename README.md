@@ -73,7 +73,7 @@ Run this command:
 
 ```sh
   cd my-folder
-  git clone https://github.com/sadaf-Daneshgar/Microverse_first_project.git
+  git clone https://github.com/sadaf-Daneshgar/Personal_Porfolio
 
 ### Install
 
