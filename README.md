@@ -50,7 +50,7 @@
 
  - Added index.html file.
  - Added style.css file.
- - Added check errors with linters 
+ - Added check errors with linters code
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
