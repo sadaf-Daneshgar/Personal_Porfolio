@@ -476,7 +476,7 @@ textarea::placeholder {
   }
 
   .container-1 img {
-    width: 100%;
+    width: 90vh;
     height: 100%;
     margin-top: 8px;
     margin-bottom: -5px;
