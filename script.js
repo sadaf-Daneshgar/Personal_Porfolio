@@ -30,9 +30,7 @@ menuItems.forEach((el) => {
 });
 
 projectCard.forEach((card) => {
-  card
-    .querySelector('.project-btn')
-    .addEventListener('click', () => showModalDesc(card));
+  card.querySelector('.project-btn').addEventListener('click', () => showModalDesc(card));
 });
 
 menubtn.addEventListener('click', () => openMenu());
@@ -40,13 +38,13 @@ closeBtn.addEventListener('click', () => closeMenu());
 closebtn.addEventListener('click', () => closeModalDesc());
 
 // validation part
-const email = document.getElementById('email');
+const emailInput = document.getElementById('email');
 const form = document.getElementById('form');
 const message = document.querySelector('.message');
 
 form.addEventListener('submit', (e) => {
-  const emailTxt = email.value;
-  if (emailTxt !== emailTxt.toLowerCase()) {
+  const regex = /[A-Z]/;
+  if (regex.test(emailInput.value)) {
     e.preventDefault();
     message.style.opacity = 1;
   } else {
