@@ -371,6 +371,22 @@ textarea::placeholder {
 .submit-container {
   display: flex;
   align-items: flex-start;
+
+  /* flex-direction: column; */
+  position: relative;
+}
+
+/* submit btn massage */
+.submit-container .message {
+  position: absolute;
+  height: 30px;
+  bottom: 8px;
+  font-size: 12px;
+  width: 100%;
+  border: 1px solid white;
+  background-color: rgb(245, 97, 97);
+  opacity: 0;
+  transition: 200ms ease-in-out;
 }
 
 .submit-btn {
@@ -380,12 +396,13 @@ textarea::placeholder {
   font-weight: 500;
   font-size: 17px;
   line-height: 24px;
+  margin-top: 20px;
   background-color: #fff;
   border: none;
   color: #6070ff;
   text-decoration: none;
   border-radius: 10px;
-  margin-right: -20px;
+  cursor: pointer;
 }
 
 .submit-btn:hover {
@@ -476,7 +493,7 @@ textarea::placeholder {
   }
 
   .container-1 img {
-    width: 100%;
+    width: 90vh;
     height: 100%;
     margin-top: 8px;
     margin-bottom: -5px;
@@ -587,6 +604,10 @@ textarea::placeholder {
     color: #fff;
     margin-bottom: 20px;
     margin-top: 10px;
+  }
+
+  .submit-container .message {
+    bottom: 40px;
   }
 
   /* tranasition and animation */
