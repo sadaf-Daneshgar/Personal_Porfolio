@@ -1,5 +1,5 @@
-const emailInput = document.querySelector('.contact-form-email');
-const nameInput = document.querySelector('.contact-form-name');
+const email = document.querySelector('.contact-form-email');
+const name = document.querySelector('.contact-form-name');
 const textarea = document.querySelector('.contact-form-message');
 
 const updateInputs = (value, type) => {
@@ -22,13 +22,13 @@ const updateLoadedData = () => {
   const getFormData = JSON.parse(localStorage.getItem('form'));
   if (getFormData === null) return;
 
-  emailInput.value = getFormData.email;
-  nameInput.value = getFormData.name;
+  email.value = getFormData.email;
+  name.value = getFormData.name;
   textarea.value = getFormData.message;
 };
 
 // events
-emailInput.addEventListener('keyup', (e) => updateInputs(e.target.value, 'email'));
-nameInput.addEventListener('keyup', (e) => updateInputs(e.target.value, 'name'));
+email.addEventListener('keyup', (e) => updateInputs(e.target.value, 'email'));
+name.addEventListener('keyup', (e) => updateInputs(e.target.value, 'name'));
 textarea.addEventListener('keyup', (e) => updateInputs(e.target.value, 'message'));
 window.addEventListener('load', () => updateLoadedData());
