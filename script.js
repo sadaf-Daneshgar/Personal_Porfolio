@@ -30,7 +30,9 @@ menuItems.forEach((el) => {
 });
 
 projectCard.forEach((card) => {
-  card.querySelector('.project-btn').addEventListener('click', () => showModalDesc(card));
+  card
+    .querySelector('.project-btn')
+    .addEventListener('click', () => showModalDesc(card));
 });
 
 menubtn.addEventListener('click', () => openMenu());
@@ -43,8 +45,8 @@ const form = document.getElementById('form');
 const message = document.querySelector('.message');
 
 form.addEventListener('submit', (e) => {
-  const regex = /[A-Z]/;
-  if (regex.test(email.value)) {
+  const emailTxt = email.value;
+  if (emailTxt !== emailTxt.toLowerCase()) {
     e.preventDefault();
     message.style.opacity = 1;
   } else {
