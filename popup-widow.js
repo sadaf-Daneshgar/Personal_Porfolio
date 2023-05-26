@@ -4,77 +4,77 @@ const mobileMenuContainer = document.querySelector('.mobile-menu');
 const menuList = document.querySelector('#menu-list');
 
 function openmenu() {
-    mobileMenuContainer.classList.add('show');
+  mobileMenuContainer.classList.add('show');
 }
 hamburgermenu.addEventListener('click', openmenu);
 function closemenu() {
-    mobileMenuContainer.classList.remove('show');
+  mobileMenuContainer.classList.remove('show');
 }
 closingmenu.addEventListener('click', closemenu);
 menuList.addEventListener('click', closemenu);
 
 // start of popup window
 const projectData = [
-    {
-        id: 0,
-        name: 'Tonic',
-        tag: { sector: 'Canopy', type: 'Band End Dev', year: 2015 },
-        description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-        image: 'Media/Snapshoot Portfolio.svg',
-        details: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the  standard dummy text ever since the 1500s,when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,',
-        technologies: ['Html', 'CSS', 'JavaScript', 'Ruby', 'bootsrap'],
-        live_link: 'www.google.com',
-        source_link: 'www.google.com',
-    },
-    {
-        id: 1,
-        name: 'Multi-Post Stories',
-        tag: { sector: 'Canopy', type: 'Band End Dev', year: 2015 },
-        description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-        image: 'Media/Snapshoot Portfolio (1).svg',
-        details: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the  standard dummy text ever since the 1500s,when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,',
-        technologies: ['Html', 'CSS', 'JavaScript', 'Ruby', 'bootsrap'],
-        live_link: 'www.google.com',
-        source_link: 'www.google.com',
-    },
-    {
-        id: 2,
-        name: 'Tonic',
-        tag: { sector: 'Canopy', type: 'Band End Dev', year: 2015 },
-        description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-        image: 'Media/Snapshoot Portfolio (4).svg',
-        details: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the  standard dummy text ever since the 1500s,when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,',
-        technologies: ['Html', 'CSS', 'JavaScript', 'Ruby', 'bootsrap'],
-        live_link: 'www.google.com',
-        source_link: 'www.google.com',
-    },
-    {
-        id: 3,
-        name: 'Multi-Post Stories',
-        tag: { sector: 'Canopy', type: 'Band End Dev', year: 2015 },
-        description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-        image: 'Media/Snapshoot Portfolio (2).svg',
-        details: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the  standard dummy text ever since the 1500s,when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,',
-        technologies: ['Html', 'CSS', 'JavaScript', 'Ruby', 'bootsrap'],
-        live_link: 'www.google.com',
-        source_link: 'www.google.com',
-    },
+  {
+    id: 0,
+    name: 'Tonic',
+    tag: { sector: 'Canopy', type: 'Band End Dev', year: 2015 },
+    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+    image: 'Media/Snapshoot Portfolio.svg',
+    details: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the  standard dummy text ever since the 1500s,when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,',
+    technologies: ['Html', 'CSS', 'JavaScript', 'Ruby', 'bootsrap'],
+    live_link: 'www.google.com',
+    source_link: 'www.google.com',
+  },
+  {
+    id: 1,
+    name: 'Multi-Post Stories',
+    tag: { sector: 'Canopy', type: 'Band End Dev', year: 2015 },
+    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+    image: 'Media/Snapshoot Portfolio (1).svg',
+    details: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the  standard dummy text ever since the 1500s,when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,',
+    technologies: ['Html', 'CSS', 'JavaScript', 'Ruby', 'bootsrap'],
+    live_link: 'www.google.com',
+    source_link: 'www.google.com',
+  },
+  {
+    id: 2,
+    name: 'Tonic',
+    tag: { sector: 'Canopy', type: 'Band End Dev', year: 2015 },
+    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+    image: 'Media/Snapshoot Portfolio (4).svg',
+    details: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the  standard dummy text ever since the 1500s,when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,',
+    technologies: ['Html', 'CSS', 'JavaScript', 'Ruby', 'bootsrap'],
+    live_link: 'www.google.com',
+    source_link: 'www.google.com',
+  },
+  {
+    id: 3,
+    name: 'Multi-Post Stories',
+    tag: { sector: 'Canopy', type: 'Band End Dev', year: 2015 },
+    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+    image: 'Media/Snapshoot Portfolio (2).svg',
+    details: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the  standard dummy text ever since the 1500s,when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,',
+    technologies: ['Html', 'CSS', 'JavaScript', 'Ruby', 'bootsrap'],
+    live_link: 'www.google.com',
+    source_link: 'www.google.com',
+  },
 ];
 
 function insertTechList(data) {
-    let techList = '';
-    function insertTech(data) {
-        techList += `<li class="tech-langs">${data}</li>`;
-    }
-    data.technologies.map(insertTech);
-    return techList;
+  let techList = '';
+  function insertTech(data) {
+    techList += `<li class="tech-langs">${data}</li>`;
+  }
+  data.technologies.map(insertTech);
+  return techList;
 }
 
 (function loadProjectData() {
-    let htmlSkeletonToInsert = '';
-    function insertData(data, index) {
-        const techList = insertTechList(data);
-        htmlSkeletonToInsert += `<div class="card">
+  let htmlSkeletonToInsert = '';
+  function insertData(data, index) {
+    const techList = insertTechList(data);
+    htmlSkeletonToInsert += `<div class="card">
      <div class="card-img">
        <img
          src="${data.image}"
@@ -99,22 +99,22 @@ function insertTechList(data) {
      </div>
    </div>
      `;
-    }
-    projectData.map(insertData);
-    document.getElementById('portflio').innerHTML = htmlSkeletonToInsert;
+  }
+  projectData.map(insertData);
+  document.getElementById('portflio').innerHTML = htmlSkeletonToInsert;
 }());
 
 function closeProjectPopup() {
-    document.getElementsByClassName('popup-section')[0].style.display = 'none';
+  document.getElementsByClassName('popup-section')[0].style.display = 'none';
 }
 
 const triggerElem = document.getElementsByClassName('card-btn');
 function openProjectPopup(e) {
-    e.preventDefault();
-    const targetIndex = e.target.attributes[1].value;
-    const techList = insertTechList(projectData[targetIndex]);
+  e.preventDefault();
+  const targetIndex = e.target.attributes[1].value;
+  const techList = insertTechList(projectData[targetIndex]);
 
-    const elemToInsert = `
+  const elemToInsert = `
    <h3 class="title work-title">
      ${projectData[targetIndex].name}
      <img  class="clossing-project"src="Media/cross.png" alt="">
@@ -156,13 +156,13 @@ function openProjectPopup(e) {
      </div>
      </div>`;
 
-    document.getElementsByClassName('window-wrapper')[0].innerHTML = elemToInsert;
-    document.getElementsByClassName('popup-section')[0].style.display = 'block';
-    const closeElemPopup = document.getElementsByClassName('clossing-project')[0];
-    closeElemPopup.addEventListener('click', closeProjectPopup);
+  document.getElementsByClassName('window-wrapper')[0].innerHTML = elemToInsert;
+  document.getElementsByClassName('popup-section')[0].style.display = 'block';
+  const closeElemPopup = document.getElementsByClassName('clossing-project')[0];
+  closeElemPopup.addEventListener('click', closeProjectPopup);
 }
 for (let i = 0; i < triggerElem.length; i += 1) {
-    triggerElem[i].addEventListener('click', (e) => { openProjectPopup(e); });
+  triggerElem[i].addEventListener('click', (e) => { openProjectPopup(e); });
 }
 
 // end of popup-window

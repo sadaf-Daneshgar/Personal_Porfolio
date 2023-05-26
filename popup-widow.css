@@ -213,6 +213,7 @@ header {
   margin: 0 15px;
 }
 
+/*
 .card-lang {
   display: flex;
   flex-wrap: wrap;
@@ -220,7 +221,7 @@ header {
   gap: 8px;
   list-style-type: none;
   margin: 12px 15px;
-}
+}  */
 
 .card-lang li {
   flex: 0 0 calc(25.33% - 8px); /* Adjust this calculation as needed */
@@ -695,12 +696,13 @@ a {
   margin-top: 20px;
 }
 
-.clossing-project {
+/* .clossing-project {
   margin-right: 2%;
   margin-top: 2%;
   cursor: pointer;
-}
+} */
 
+/*
 .tech-langs {
   font-style: normal;
   font-weight: 500;
@@ -711,32 +713,7 @@ a {
   padding: 4px 12px;
   background: #ebebff;
   border-radius: 8px;
-}
-
-.work-title {
-  font-style: normal;
-  font-weight: 700;
-  font-size: 25px;
-
-  /* line-height: px; */
-  color: #091e42;
-  margin-left: 1%;
-}
-
-.work-tag-popup {
-  font-style: normal;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 24px;
-  color: #6b778c;
-  display: flex;
-  justify-content: flex-start;
-  text-decoration: none;
-  list-style-type: none;
-  gap: 12px;
-  margin-bottom: 12px;
-  margin-top: 6px;
-}
+} */
 
 .mobile-pop-img {
   width: 100%;
@@ -755,36 +732,6 @@ a {
   font-size: 15px;
 }
 
-.see-container {
-  display: flex;
-  gap: 10px;
-  margin: auto;
-  width: 100%;
-  height: 100%;
-}
-
-.see-container span {
-  font-size: 17px;
-  font-style: normal;
-  font-weight: 500;
-}
-
-.see-live {
-  font-style: normal;
-  font-weight: 500;
-  text-decoration: none;
-  width: 130px;
-  height: 40px;
-  background: #fff;
-  border: 1px solid #396df2;
-  border-radius: 8px;
-  color: #396df2;
-  padding: 2px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
 .hide {
   visibility: hidden;
 }
@@ -794,12 +741,6 @@ a {
   flex-direction: column;
   justify-content: center;
   margin: 5px auto;
-  width: 100%;
-}
-
-.work-tag-button-wrapper {
-  display: flex;
-  flex-direction: column;
   width: 100%;
 }
 
@@ -1148,6 +1089,7 @@ a {
   gap: 8px;
   list-style-type: none;
   margin: 12px 15px;
+  flex-wrap: wrap;
 }
 
 .tech-langs {
@@ -1242,4 +1184,5 @@ a {
   display: flex;
   gap: 10px;
   align-items: center;
+  justify-content: center;
 }
