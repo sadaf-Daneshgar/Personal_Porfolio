@@ -20,8 +20,6 @@
 - [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
-<!-- PROJECT DESCRIPTION -->
-
 # 📖 [Personal_Portfolio] <a name="about-project"></a>
    **[Portfolio]** is a project to give a summary of my portfolio.
 
